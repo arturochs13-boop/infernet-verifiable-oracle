@@ -1,0 +1,22 @@
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Go
+worker/bin/
+*.test
+*.exe
+*.out
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.log
